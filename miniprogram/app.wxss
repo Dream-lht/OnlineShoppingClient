@@ -1,0 +1,4 @@
+/**app.wxss**/
+.page{
+    /* width: calc(100vw - 24px); */
+}

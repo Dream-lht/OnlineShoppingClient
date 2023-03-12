@@ -1,0 +1,12 @@
+.page{
+    width: calc(100vw - 24px);
+    padding: 10px 12px;
+}
+
+.custom-class{
+    border-radius: 50%;
+}
+
+.search .van-search{
+    padding: 0;
+}

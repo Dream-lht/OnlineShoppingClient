@@ -1,0 +1,5 @@
+<!--pages/login/index.wxml-->
+<custom-navbar :title="登录" isBack="{{true}}" :></custom-navbar>
+<view class="login">
+    <button bindtap="handleRegister" class="btn">微信号一键登录</button>
+</view>

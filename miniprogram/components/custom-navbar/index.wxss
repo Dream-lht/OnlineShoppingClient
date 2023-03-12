@@ -1,0 +1,45 @@
+/* components/custon-navbar/index.wxss */
+.navbar{
+    width: 100vw;
+    background-color: #000;
+}
+
+.navbar-box{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 999;
+    text-align: center;
+    background-color:#C20C0C;
+}
+
+.content{
+    position: relative;
+}
+
+.title{
+    display: inline-block;
+    width:200rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #ffffff;
+}
+
+.operation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 30rpx;
+    color: #ffffff;
+    font-size: 30rpx;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.back,.index{
+    width: 40rpx;
+    height: 40rpx;
+}

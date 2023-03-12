@@ -1,0 +1,3 @@
+<!--pages/shoppingCart/index.wxml-->
+<custom-navbar isBack="{{false}}" title="购物车"></custom-navbar>
+<text>pages/shoppingCart/index.wxml</text>

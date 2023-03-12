@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<custom-navbar isBack="{{false}}" title="快买"></custom-navbar>
+<view class="page">
+    <!-- 搜索框 -->
+    <van-search class="search" shape="round"></van-search>
+    <!-- tab栏，分类 -->
+    <van-tabs sticky swipeable active="{{ active }}">
+        <van-tab wx:for="{{tabsConfig}}" title="{{item.name}}" wx:key="type">
+            <tabs-content type="{{item.type}}"></tabs-content>
+        </van-tab>
+    </van-tabs>
+</view>

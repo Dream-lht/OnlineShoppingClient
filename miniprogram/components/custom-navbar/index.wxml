@@ -1,0 +1,13 @@
+<!--components/custon-navbar/index.wxml-->
+<view class="navbar-box" style="height: {{navBarHeight}}px;">
+    <view class="content" style="height: {{contentHeight}}px; line-height: {{contentHeight}}px; min-height: {{menuHeight}}px;margin-top: {{navBarHeight - contentHeight}}px;">
+        <view wx:if="{{isBack}}" class="operation"  style="left: {{menuRight}}px; width: {{menuWidth}}px;height: {{menuHeight}}px;">
+            <image src="../../assets/image/back.png" class="back" bindtap="handleBack"></image>
+            |
+            <image src="../../assets/image/index.png" class="index" bindtap="handleIndex"></image>
+        </view>
+        <text class="title" >{{title}}</text>
+    </view>
+</view>
+
+<view class="navbar" style="height: {{navBarHeight}}px;"></view>

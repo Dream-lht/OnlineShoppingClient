@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+      "custom-navbar":"../../components/custom-navbar/index",
+      "tabs-content":"../../components/tabs-content/index"
+  }
+}

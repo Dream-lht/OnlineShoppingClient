@@ -1,0 +1,52 @@
+{
+    "pages": [
+        "pages/home/index",
+        "pages/shoppingCart/index",
+        "pages/my/index",
+        "pages/login/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fafafa",
+        "navigationBarTitleText": "Shop",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#fff",
+        "navigationStyle": "custom"
+    },
+    "sitemapLocation": "sitemap.json",
+    "resolveAlias": {
+        "~/*": "/*",
+        "@utils/*": "utils/*",
+        "@api/*": "api/*",
+        "@vant/*": "miniprogram_npm/@vant/*"
+    },
+    "tabBar": {
+        "selectedColor": "#C20C0C",
+        "list": [
+            {
+                "pagePath": "pages/home/index",
+                "text": "首页",
+                "iconPath": "./assets/image/home.png",
+                "selectedIconPath": "./assets/image/home-active.png"
+            },
+            {
+                "pagePath": "pages/shoppingCart/index",
+                "text": "购物车",
+                "iconPath": "./assets/image/cart.png",
+                "selectedIconPath": "./assets/image/cart-active.png"
+            },
+            {
+                "pagePath": "pages/my/index",
+                "text": "我的",
+                "iconPath": "./assets/image/my.png",
+                "selectedIconPath": "./assets/image/my-active.png"
+            }
+        ]
+    },
+    "usingComponents": {
+        "van-search": "./miniprogram_npm/@vant/weapp/search/index",
+        "van-tab":"./miniprogram_npm/@vant/weapp/tab/index",
+        "van-tabs":"./miniprogram_npm/@vant/weapp/tabs/index",
+        "van-card":"./miniprogram_npm/@vant/weapp/card/index"
+    }
+}

@@ -1,0 +1,4 @@
+<!--components/tabs-list/index.wxml-->
+<view>
+    内容{{type}}
+</view>

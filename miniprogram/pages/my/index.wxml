@@ -1,0 +1,3 @@
+<!--pages/my/index.wxml-->
+<custom-navbar isBack="{{false}}" title="我的"></custom-navbar>
+<text>pages/my/index.wxml</text>

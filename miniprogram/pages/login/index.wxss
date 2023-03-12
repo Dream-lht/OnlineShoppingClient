@@ -1,0 +1,14 @@
+/* pages/login/index.wxss */
+
+.login{
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn{
+    width: 80%;
+    margin-top: 12vh;
+    font-size: 18px;
+    letter-spacing:0.1cm;
+    background: #07c160;
+}
